@@ -1,0 +1,37 @@
+      body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 500%;
+        }
+
+        .container {
+            display: flex;
+            justify-content: flex-end; /* Alinea los elementos hacia la derecha */
+            flex-wrap: wrap; /* Permite que los elementos se envuelvan si no hay suficiente espacio */
+            max-width: 80%; /* Limita el ancho de la caja de contenedor */
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            margin: 10px; /* Espacio entre las cajas */
+            border: 1px solid #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
